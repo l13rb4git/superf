@@ -1,24 +1,3 @@
-# README
+<img src="https://user-images.githubusercontent.com/34998720/96298808-77578680-0fc9-11eb-80fd-6bdc8eae4235.png" width="424" height="324"> 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# superF: A Superficial Social Media
