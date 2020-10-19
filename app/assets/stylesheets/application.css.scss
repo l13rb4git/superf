@@ -30,16 +30,14 @@ a {
 
 	ul {
 		list-style: none;
-		text-align: right;
-		padding-right: 3em;
-		.category {
-			font-weight: 900;
-			font-size: 2.5em;
-			text-transform: uppercase;
-			color: #22747b;
-		}
+		padding-right: 1em;
+        padding-inline-start: 10px;
+        text-align: right;
+        font-weight: 600;
+
 		li {
-			padding: .45em 0;
+			padding: .60em 0;
+
 			a {
 				color: #FFF;
 				text-decoration: none;
@@ -48,19 +46,29 @@ a {
 					color: #3d4d56;
 				}
 			}
+
+            .category {
+                font-weight: 900;
+                font-size: 2.5em;
+                text-transform: uppercase;
+                color: #22747b;
+                text-align: center;
+            }
+
+            .sign_in {
+                //position: absolute;
+                right: 3.1em;
+                top: 39%;
+                font-size: 1.0em;
+                color: #FFFFFF;
+            }
 		}
+
 		.active {
 			a {
 				color: #33acb7;
 			}
 		}
-	}
-	.sign_in {
-		position: absolute;
-		right: 3.1em;
-		top: 39%;
-		font-size: 1.0em;
-		color: #FFFFFF;
 	}
 }
 
