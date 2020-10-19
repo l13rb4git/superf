@@ -118,13 +118,13 @@ a {
 			}
 		}
 	}
-	.post_wrapper {
+	.post-wrapper {
 		padding: 1.9em;
 		border-bottom: 1px solid #d6dce0;
 		.title {
-			margin: 2px;
+			//margin: 2px;
+            font-weight: 600;
 			a {
-				font-weight: 500;
 				text-decoration: none;
 				color: #529FCD;
 				font-size: 1.2em;
@@ -133,9 +133,9 @@ a {
 				}
 			}
 		}
-		.date_and_author {
+		.date-and-author {
 			color: #22487b;
-			margin: .5em 0 0 0;
+			margin: .5em 0 0 .5em;
 		}
 		.body {
 			color: #d3d3d3;
@@ -155,7 +155,7 @@ a {
 			font-size: 1.1em;
 			line-height: 1.75;
 		}
-		.date_and_author {
+		.date-and-author {
 			color: #9eafba;
 			margin: .5em 0 2em 0;
 		}
@@ -171,24 +171,24 @@ a {
 			.comment {
 				border-bottom: 1px solid #d6dce0;
 				padding: 1.5em 2em;
-				.clear_both {
+				.clear-both {
 					clear: both;
 				}
 				&:after {
 					clear: both;
 				}
-				.comment_content {
+				.comment-content {
 					float: left;
-					.comment_name {
+					.comment-name {
 						margin: 1em 0 0 0;
 						font-size: 1.0em;
 						text-transform: uppercase;
 					}
-					.comment_body {
+					.comment-body {
 						font-size: 1.2em;
 						margin: 0.2em 0 0 0;
 					}
-					.comment_time {
+					.comment-time {
 						margin-top: 1.2em;
 						font-size: .8em;
 					}
@@ -202,9 +202,9 @@ a {
 			}
 		}
 	}
-	#page_wrapper {
+	#page-wrapper {
 		padding: 3em;
-		#profile_image {
+		#profile-image {
 			width: 300px;
 			float: left;
 			margin-right: 2em;
