@@ -1,8 +1,8 @@
-<div id="post_content">
+<div id="post-content">
   <h1 class="title">
     <%= @post.title %>
   </h1>
-  <p class="date">
+  <p class="date-and-author">
     Posted <%= time_ago_in_words(@post.created_at) %> ago
   </p>
   <p class="body">
