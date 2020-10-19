@@ -3,7 +3,8 @@
     <%= @post.title %>
   </h1>
   <p class="date-and-author">
-    Posted <%= time_ago_in_words(@post.created_at) %> ago
+    Posted <%= time_ago_in_words(@post.created_at) %> ago |
+    <strong> <%= link_to 'Edit', edit_post_path(@post) %> </strong>
   </p>
   <p class="body">
     <%= @post.body %> 
