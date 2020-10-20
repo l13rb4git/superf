@@ -15,6 +15,6 @@
     <h2><%= @post.comments.count %> Comments</h2>
     <h3>What are your thoughts? Leave a reply:</h3>
     <%= render 'comments/form' %>
-    <%= render @post.comments %>
+    <%= render :partial => 'comments/comment', :collection => @post.comments %>
   </div>
 </div>
