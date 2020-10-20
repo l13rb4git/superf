@@ -213,6 +213,7 @@ a {
 	}
 	#page-wrapper {
 		padding: 3em;
+
 		#profile-image {
 			width: 300px;
 			float: left;
@@ -222,6 +223,7 @@ a {
 				border-radius: 0.35em;
 			}
 		}
+
 		#content {
 			h1 {
 				font-weight: 500;
@@ -237,9 +239,11 @@ a {
 			}
 		}
 	}
+
 	.links {
 		margin: 2em 0;
 	}
+
 	input[type="text"], input[type="email"], input[type="password"], textarea {
 		width: 70%;
 		border: 1px solid #d6dce0;
@@ -248,12 +252,29 @@ a {
 		padding: .5em 1em;
 		line-height: 1.75;
 	}
+
 	input[type="text"] {
 		height: 35px;
 	}
+
 	textarea {
 		min-height: 180px;
 	}
+
+	.button {
+		outline: none;
+		background: transparent;
+		border: 1px solid #d6dce0;
+		padding: .5em 1.5em;
+		font-size: 1.1em;
+		border-radius: 1.5em;
+		margin-left: .5em;
+		&:hover {
+			border: 1px solid #0032bb;
+			color: #0032bb;
+		}
+    }
+
 	input[type="submit"] {
 		outline: none;
 		background: transparent;
@@ -262,6 +283,7 @@ a {
 		font-size: 1.1em;
 		border-radius: 1.5em;
 		margin-left: .5em;
+        margin-top: .5em;
 		&:hover {
 			border: 1px solid #0032bb;
 			color: #0032bb;
