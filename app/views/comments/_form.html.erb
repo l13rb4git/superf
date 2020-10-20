@@ -1,4 +1,4 @@
-<%= form_with([@post, @post.comments.build]) do |f| %>
+<%= form_with model: [@post, @post.comments.build] do |f| %>
   <p>
     <%= f.label :name %>
     <%= f.text_field :name %>
