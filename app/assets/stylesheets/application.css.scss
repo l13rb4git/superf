@@ -4,7 +4,7 @@
  */
 
 @import 'normalize';
-//@import 'logo.css.erb';
+//@import 'comments.css.scss';
 
 html, body {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -162,7 +162,7 @@ a {
 		}
 		#comments {
 			h2 {
-				margin: 3em 0 1em 0;
+				margin: 1em 0 1em 0;
 				border-bottom: 1px solid #d6dce0;
 				padding-bottom: 0.5em;
 			}
@@ -238,7 +238,7 @@ a {
 
 	input[type="text"], input[type="email"], input[type="password"], textarea {
 		width: 70%;
-		border: 1px solid #d6dce0;
+		border: 1px solid #0032bb;
 		border-radius: .35em;
 		margin-top: 20px;
 		padding: .5em 1em;
@@ -246,11 +246,13 @@ a {
 	}
 
 	input[type="text"] {
-		height: 35px;
+		height: 28px;
+        max-width: 300px;
 	}
 
 	textarea {
-		min-height: 180px;
+		min-height: 70px;
+        max-width: 352px;
 	}
 
 	.button {

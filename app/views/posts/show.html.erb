@@ -14,9 +14,11 @@
   </p>
 
   <div id="comments">
-    <h2><%= @post.comments.count %> Comments</h2>
     <h3>What are your thoughts? Leave a reply:</h3>
     <%= render 'comments/form' %>
-    <%= render :partial => 'comments/comment', :collection => @post.comments %>
+    <div class="comment_block">
+      <h2><%= @post.comments.count %> Comments</h2>
+      <%= render :partial => 'comments/comment', :collection => @post.comments.order("created_at DESC") %>
+    </div>
   </div>
 </div>
