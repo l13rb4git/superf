@@ -78,21 +78,6 @@ a {
 	}
 }
 
-.button {
-	outline: none;
-	background: transparent;
-	border: 1.5px solid #FFF;
-	padding: .5em 2.5em;
-	border-radius: 0.5em;
-	&:hover {
-		border: 1px solid #333734;
-		color: #22487b;
-		a {
-			color: #22487b !important;
-		}
-	}
-}
-
 .clearfix:after {
    content: ".";
    visibility: hidden;
@@ -114,6 +99,9 @@ a {
 		a {
 			color: #FFF;
 			text-decoration: none;
+            &:hover {
+                color: #5a8ede;
+            }
 		}
 		.buttons {
 			float: right;
@@ -121,6 +109,10 @@ a {
 			.button {
 				font-size: .8em;
 				margin-left: .5em;
+
+                &:hover {
+                    border: 1px solid #5a8ede;
+                }
 			}
 		}
 	}
